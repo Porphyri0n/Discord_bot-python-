@@ -4,6 +4,8 @@ import os
 import json
 from discord.ext import commands
 
+bot_token = ""
+
 def get_prefix(client, message):
     with open("./cogs/prefixes.json","r") as f:
         prefixes = json.load(f)
@@ -34,4 +36,4 @@ for filename in os.listdir('./cogs'):
 
 
 
-client.run('MTAwNDY4MjIyODI3NTYwOTYxMA.Gp0K4-.RF1OsK376destE8YsYeiD9RNlTP3ZUggZ0Eq7M')
+client.run(bot_token)
