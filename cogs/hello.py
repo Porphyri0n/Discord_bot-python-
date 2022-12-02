@@ -1,3 +1,4 @@
+#Author: porphyri0n - Github link: https://github.com/Porphyri0n
 import discord
 from discord.ext import commands
 
